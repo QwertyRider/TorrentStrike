@@ -1,0 +1,428 @@
+body {
+  margin : 0;
+  border : 0;
+  padding : 0;
+  background-color : white;
+  font-family : Verdana, Helvetica, sans-serif;
+  font-size : 11px;
+}
+
+h1 {
+  font-size : 22px;
+  font-family : "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+  text-decoration : none;
+  line-height : 120%;
+  color : #000000;
+}
+h2 {
+  margin : 0;
+  font-family : Arial, Helvetica, sans-serif;
+  text-decoration : none;
+  line-height : 120%;
+  font-size: 17px;
+}
+td {
+  font-family : Verdana, Helvetica, sans-serif;
+  border-width: 0px;
+}
+td.colhead {
+  background-color : #ececec;
+  padding : 4px;
+  font-family : Verdana, Helvetica, sans-serif;
+  font-size : 10px;
+  border-color : #ffffff;
+  border-style : solid;
+  border-width : 1px 1px 0;
+}
+td.rowhead {
+  background-color : #ececec;
+  padding : 4px;
+  font-family : Verdana, Helvetica, sans-serif;
+  font-size : 10px;
+  border-color : #ffffff;
+  border-style : solid;
+  border-width : 1px 1px 0;
+}
+td.rowhead2 {
+  background-color : #f7f7f7;
+  padding : 4px;
+  font-family : Verdana, Helvetica, sans-serif;
+  font-size : 10px;
+  border-color : #ffffff;
+  border-style : solid;
+  border-width : 1px 1px 0;
+}
+form {
+  margin : 0;
+  padding : 0;
+  border : 0;
+}
+a, a:link, a:active, a:visited {
+  text-decoration : none;
+  color : #445588;
+}
+input {
+  border : 1px solid #d0d0d0;
+  background-color : white;
+  color : black;
+  font-family : Verdana, serif;
+  font-size : 10px;
+  font-weight : normal;
+}
+textarea {
+  background-color : white;
+  color : black;
+  font-family : Verdana, serif;
+  font-size : 10px;
+  font-weight : normal;
+  border-color : #d0d0d0;
+  border-style : solid;
+  border-width : 1px;
+}
+select {
+  color : black;
+  background-color : white;
+  font-family : Verdana, serif;
+  font-size : 10px;
+  font-weight : normal;
+  border-color : black;
+  border-style : solid;
+  border-width : 1px;
+}
+
+
+/* -------------------- was missing -------------------------- */
+
+table 
+{
+  border-color: #98aab1;
+  border-width: 1px;
+  border-style: solid;
+  font-family : Verdana, Helvetica, sans-serif;
+  font-size : 11px;
+}
+
+table.main, table.mainouter 
+{
+  border-width : 0px;
+  font-family : Verdana, Helvetica, sans-serif;
+  font-size : 11px;
+}
+table.bottom 
+{
+  font-family : Verdana, Helvetica, sans-serif;
+  border-width : 0px;
+  font-size : 11px;
+  border-width : 0px;
+}
+
+p {
+	font-size: 8pt;
+}
+p.sub { 
+  margin-bottom: 4pt;
+}
+td.embedded {
+   border: none;
+   padding: 0px;
+  text-align: left;
+}
+td.bottom {
+  border: none;
+}
+td.heading {
+
+  background-color : #ececec;
+  padding : 4px;
+  font-family : Verdana, Helvetica, sans-serif;
+  font-size : 10px;
+  border-color : #ffffff;
+  border-style : solid;
+  border-width : 1px 1px 0;
+
+
+}
+td.text {
+  padding: 10pt;
+  text-align: left;
+}
+td.comment {
+  padding: 10pt;
+  font-size: 8pt;
+  text-align: left;
+}
+td.title {
+	font-size: 14pt;
+}
+td.navigation {
+	font-weight: bold;
+	font-size: 10pt;
+   border: none;
+}
+td.clear {
+  padding: 0px;
+  border: 0px;
+  background: transparent;
+}
+.sublink {
+	font-style: italic;
+	font-size: 7pt;
+	font-weight: normal;
+}
+font.gray
+{
+  color: #ACA899;
+  text-decoration: underline;
+}
+a:hover {
+  text-decoration : none;
+  color : #224466;
+}
+a.index {
+	font-weight: bold;
+}
+a.biglink {
+	font-weight: bold;
+	font-size: 12pt;
+}
+a.altlink:link, a.altlink:visited{
+	font-weight: bold;
+	color: #A83838;
+	text-decoration: none;
+}
+
+a.altlink:hover {
+  text-decoration: underline;
+}
+
+a.altlink_blue:link, a.altlink_blue:visited{
+	font-weight: bold;
+	color: #004E98;
+	text-decoration: none;
+}
+
+a.altlink_blue:hover {
+  text-decoration: underline;
+}
+
+a.altlink_green:link, a.altlink_green:visited{
+	font-weight: bold;
+	color: #007800;
+	text-decoration: none;
+}
+
+a.altlink_green:hover {
+  text-decoration: underline;
+}
+.important {
+	font-weight: bold;
+	font-size: 8pt;
+}
+.red {
+	color: #ee0000;
+}
+.yellow {
+	color: #997700;
+}
+.green {
+	color: #000000;
+}
+.btn {
+  width: 75px;
+  height: 23px;
+}
+.small {
+  font-size: 7pt;
+}
+.big {
+  font-size: 10pt;
+}
+li {
+  margin-top: 6pt;
+  margin-bottom: 6pt;
+}
+ul {
+  margin-left: 0pt;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+img.border  
+{  
+  border-style: solid;  
+  border-color: #000000; 
+  border-width: 1px; 
+}
+
+/*------------------- Added to TBDev code ---------------------*/
+
+.row1 {
+  background-color : #f7f7f7;
+  padding : 4px;
+  font-family : Verdana, Helvetica, sans-serif;
+  font-size : 10px;
+  border-color : #ffffff;
+  border-style : solid;
+  border-width : 1px 1px 0;
+}
+.row2 {
+  background-color : #ececec;
+  padding : 4px;
+  font-family : Verdana, Helvetica, sans-serif;
+  font-size : 10px;
+  border-color : #ffffff;
+  border-style : solid;
+  border-width : 1px 1px 0;
+}
+.row3 {
+  background-color : #f7f7f7;
+  margin : 4px;
+  padding : 10px;
+  font-family : Verdana, Helvetica, sans-serif;
+  font-size : 10px;
+  border-width : 0px;
+}
+
+/*----------------- only used by ICGStation template -------------*/
+
+.theme_table
+{
+  margin : 0;
+  border : 0;
+  padding : 0;
+  font-family : Verdana, Helvetica, sans-serif;
+  font-size : 11px;
+}
+
+.forumline {
+  background-color : #a9b8c2;
+  border : 0 solid #006699;
+}
+td.navpic {
+  background-color : #ffffff;
+  background-image : url(images/navpic.gif);
+  height : 22px;
+}
+td.indexbom {
+  background-image : url(images/bt.gif);
+  background-repeat : repeat-x;
+}
+h3 {
+  margin : 0;
+  font-family : Verdana, serif;
+  line-height : 120%;
+  font-size: 17px;
+}
+h4 {
+  margin : 0;
+}
+.mainmenu {
+  margin : 1px;
+  font-size : 10px;
+}
+.genmed {
+  margin : 1px;
+  font-size : 10px;
+}
+.copyright {
+  color : #444;
+  font-weight : normal;
+  font-size : 10px;
+  font-family : Verdana, Arial, Helvetica, sans-serif;
+  letter-spacing : -1px;
+}
+th {
+  height : 25px;
+  color : #444444;
+  border-color : #ffffff;
+  border-style : solid;
+  font-size : 10px;
+  background-color : #eaeaea;
+  white-space : nowrap;
+  border-width : 1px 1px 0;
+}
+.spacer {
+  background-color : #d1d7dc;
+}
+hr {
+  height : 1px;
+  border-width : 0;
+  background-color : #d1d7dc;
+  color : #d1d7dc;
+}
+.post {
+  background-color : white;
+  border-style : solid;
+  border-width : 1px;
+}
+img {
+  border : 0;
+}
+.tbl {
+  border-collapse : collapse;
+  height : 4px;
+  width : 100%;
+  border : 0;
+}
+.tbll {
+  background : url(images/tb4_l.gif) no-repeat;
+  width : 8px;
+}
+.tblbot {
+  background : url(images/tb4_m.gif) repeat-x;
+  width : 100%;
+}
+.tblr {
+  background : url(images/tb4_r.gif) no-repeat;
+  width : 8px;
+}
+.tbt {
+  border-collapse : collapse;
+  height : 22px;
+  width : 100%;
+  border : 0;
+}
+.tbtl {
+  background : url(images/tb2_l.gif) no-repeat;
+  width : 22px;
+}
+.tbtbot {
+  background : url(images/tb2_m.gif) repeat-x;
+  width : 100%;
+  font-size : 11px;
+  color : #445588;
+}
+.tbtr {
+  background : url(images/tb2_r.gif) no-repeat;
+  width : 124px;
+}
+.tbtr_block {
+  background : url(images/tb2_r_block.gif) no-repeat;
+  width : 70px;
+}
+td.colhead2 {
+  background-color : #f7f7f7;
+  padding : 4px;
+  font-family : Verdana, Helvetica, sans-serif;
+  font-size : 10px;
+  border-color : #ffffff;
+  border-style : solid;
+  border-width : 1px 1px 0;
+}
+.coltable {
+  background-color : #a9b8c2;
+  padding : 0;
+  border : 0 solid #006699;
+}
+.colheadlink, a.colheadlink, a.colheadlink:link, a.colheadlink:active, a.colheadlink:visited {
+  color : #445588;
+  text-decoration : none;
+}
+.tableb {
+  font-size : 11px;
+  font-family : arial;
+  color : #1d3b50;
+  background-color : #f1f1f1;
+  border-top : 1px solid #dfe7ec;
+  background-image : url(images/cell_bg2_inbox.gif);
+  background-repeat : no-repeat;
+}
